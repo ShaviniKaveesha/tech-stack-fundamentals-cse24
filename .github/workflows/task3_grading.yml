@@ -460,20 +460,19 @@ jobs:
 
           ## 📊 Full Leaderboard
 
-          | Rank | Student | Score | Grade | Title | Last Updated | Attempts |
-          |:----:|---------|:-----:|:-----:|-------|--------------|:--------:|
+          | Rank | Student | Score | Grade | Title | Last Updated |
+          |:----:|---------|:-----:|:-----:|-------|--------------|
           """
           
           for i, result in enumerate(sorted_results, 1):
               grade_emoji = {'A': '🌟', 'B': '✨', 'C': '👌', 'D': '📝', 'F': '🔨'}
               emoji = grade_emoji.get(result['grade'], '❓')
               title = get_title(i, result['grade'])
-              attempts = result.get('submission_count', 1)
               
               # Medal for top 3
               rank_display = {1: '🥇', 2: '🥈', 3: '🥉'}.get(i, str(i))
               
-              readme += f"| {rank_display} | **{result['student']}** | {result['total']}/100 | {emoji} {result['grade']} | {title} | {result.get('last_updated', 'N/A')} | {attempts} |\n"
+              readme += f"| {rank_display} | **{result['student']}** | {result['total']}/100 | {emoji} {result['grade']} | {title} | {result.get('last_updated', 'N/A')} |\n"
           
           readme += """
           ---
