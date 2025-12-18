@@ -397,8 +397,12 @@ jobs:
           with open(leaderboard_file, 'w') as f:
               json.dump(all_results, f, indent=2)
           
-          # Sort by score
-          sorted_results = sorted(all_results.values(), key=lambda x: (-x['total'], x['student']))
+          # Sort by: Score → Last Updated Time (earliest wins)
+          sorted_results = sorted(all_results.values(), key=lambda x: (
+              -x['total'],                    # Primary: Total score (descending)
+              x.get('last_updated', '9999'),  # Tiebreaker: Earlier submission wins (ascending)
+              x['student']                    # Last resort: Alphabetical
+          ))
           
           # Fun titles based on rank
           def get_title(rank, grade):
