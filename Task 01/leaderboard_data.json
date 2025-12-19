@@ -56,8 +56,8 @@
     ],
     "total": 18,
     "grade": "F",
-    "last_updated": "2025-12-19 06:26 UTC",
-    "submission_count": 1
+    "last_updated": "2025-12-19 08:28 UTC",
+    "submission_count": 2
   },
   "vishwa": {
     "student": "vishwa",
@@ -77,8 +77,8 @@
     ],
     "total": 60,
     "grade": "D",
-    "last_updated": "2025-12-19 06:33 UTC",
-    "submission_count": 1
+    "last_updated": "2025-12-19 08:28 UTC",
+    "submission_count": 2
   },
   "Sachini_Gunasekara": {
     "student": "Sachini_Gunasekara",
@@ -102,8 +102,8 @@
     ],
     "total": 38,
     "grade": "F",
-    "last_updated": "2025-12-19 06:35 UTC",
-    "submission_count": 1
+    "last_updated": "2025-12-19 08:28 UTC",
+    "submission_count": 2
   },
   "Binuka": {
     "student": "Binuka",
@@ -123,8 +123,8 @@
     ],
     "total": 56,
     "grade": "F",
-    "last_updated": "2025-12-19 07:23 UTC",
-    "submission_count": 2
+    "last_updated": "2025-12-19 08:28 UTC",
+    "submission_count": 3
   },
   "athishaya.j": {
     "student": "athishaya.j",
@@ -149,8 +149,8 @@
     ],
     "total": 31,
     "grade": "F",
-    "last_updated": "2025-12-19 06:47 UTC",
-    "submission_count": 1
+    "last_updated": "2025-12-19 08:28 UTC",
+    "submission_count": 2
   },
   "Dihini": {
     "student": "Dihini",
@@ -167,8 +167,8 @@
     ],
     "total": 73,
     "grade": "C",
-    "last_updated": "2025-12-19 07:21 UTC",
-    "submission_count": 1
+    "last_updated": "2025-12-19 08:28 UTC",
+    "submission_count": 2
   },
   "Shaeshanth": {
     "student": "Shaeshanth",
@@ -182,8 +182,8 @@
     ],
     "total": 86,
     "grade": "B",
-    "last_updated": "2025-12-19 07:31 UTC",
-    "submission_count": 1
+    "last_updated": "2025-12-19 08:28 UTC",
+    "submission_count": 2
   },
   "Sayuru_Pilapitiya": {
     "student": "Sayuru_Pilapitiya",
@@ -200,8 +200,8 @@
     ],
     "total": 65,
     "grade": "D",
-    "last_updated": "2025-12-19 08:17 UTC",
-    "submission_count": 1
+    "last_updated": "2025-12-19 08:28 UTC",
+    "submission_count": 2
   },
   "chamath": {
     "student": "chamath",
@@ -217,7 +217,39 @@
     ],
     "total": 78,
     "grade": "C",
-    "last_updated": "2025-12-19 08:19 UTC",
+    "last_updated": "2025-12-19 08:28 UTC",
+    "submission_count": 2
+  },
+  "Induru_Adeesha": {
+    "student": "Induru_Adeesha",
+    "file_structure": 10,
+    "semantic_html": 20,
+    "functionality": 18,
+    "design": 25,
+    "responsive": 14,
+    "issues": [
+      "\u26a0\ufe0f Incomplete anchor navigation"
+    ],
+    "total": 87,
+    "grade": "B",
+    "last_updated": "2025-12-19 08:28 UTC",
+    "submission_count": 1
+  },
+  "portfolio-lahiru": {
+    "student": "portfolio-lahiru",
+    "file_structure": 10,
+    "semantic_html": 20,
+    "functionality": 17,
+    "design": 15,
+    "responsive": 8,
+    "issues": [
+      "\u274c No form or labels",
+      "\u26a0\ufe0f No grid/flex layout",
+      "\u274c No media queries - not responsive"
+    ],
+    "total": 70,
+    "grade": "C",
+    "last_updated": "2025-12-19 08:28 UTC",
     "submission_count": 1
   }
 }
